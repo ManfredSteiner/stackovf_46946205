@@ -1,0 +1,41 @@
+{
+  "name": "stackovf_46946205",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "repository": {},
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp build",
+    "prestart": "gulp cleanAndBuild",
+    "start": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "??",
+  "license": "ISC",
+  "dependenciesGlobal": {
+    "express": "^4.16.2",
+    "sprintf-js": "^1.1.1"
+  },
+  "devDependenciesGlobal": {
+    "@types/express": "^4.0.38",
+    "@types/node": "^8.0.31",
+    "@types/sprintf-js": "^1.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-changed": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.3",
+    "gulp-using": "^0.1.1",
+    "merge-stream": "^1.0.1",
+    "path": "^0.12.7",
+    "run-sequence": "^2.2.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.38",
+    "@types/node": "^8.0.31",
+    "@types/sprintf-js": "^1.1.0"
+  }
+}

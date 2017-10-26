@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "experimentalDecorators": true,
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "target": "es6",
+    "mapRoot": "./",
+    "outDir": "./dist",
+    //"paths": {
+    //   "*", "/usr/lib/node_modules/@types/*"
+    //},
+    //"baseUrl": "src",
+    //"declaration": false,
+    //"moduleResolution": "node",
+    //"emitDecoratorMetadata": true,
+    "typeRoots": [
+      "/usr/lib/node_modules/@types"
+    ],
+    "types" : ["node", "express"]
+  },
+  "include": [ "src" ]
+}
